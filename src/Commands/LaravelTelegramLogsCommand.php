@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Michelmelo\LaravelTelegramLogs\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelTelegramLogsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-telegram-logs';
 
     public $description = 'My command';
 

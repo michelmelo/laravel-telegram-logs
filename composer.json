@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "michelmelo/laravel-telegram-logs",
+    "description": "telegram logs",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "michelmelo",
+        "laravel-telegram-logs"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/michelmelo/laravel-telegram-logs",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_homepage",
+            "name": "Michel Melo",
+            "email": "eu@michelmelo.pt",
+            "homepage": "https://michelmelo.pt",
             "role": "Developer"
         }
     ],
@@ -25,13 +25,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Michelmelo\\LaravelTelegramLogs\\": "src",
+            "Michelmelo\\LaravelTelegramLogs\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Michelmelo\\LaravelTelegramLogs\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Michelmelo\\LaravelTelegramLogs\\LaravelTelegramLogsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "LaravelTelegramLogs": "Michelmelo\\LaravelTelegramLogs\\LaravelTelegramLogsFacade"
             }
         }
     },
@@ -57,11 +57,11 @@
     "funding": [
         {
             "type": "github",
-            "url": "https://github.com/sponsors/:vendor_name"
+            "url": "https://github.com/sponsors/michelmelo"
         },
         {
             "type": "other",
-            "url": ":author_homepage"
+            "url": "michelmelo.pt"
         }
     ]
 }

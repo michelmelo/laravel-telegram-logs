@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Michelmelo\LaravelTelegramLogs\Tests;
 
 class ExampleTest extends TestCase
 {
